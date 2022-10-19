@@ -5,7 +5,7 @@ const App = () => {
 
   return (
     <>
-      <h1>Contador 1</h1>
+      <h1>Contador</h1>
       <p>{counter}</p>
       <button onClick={() => setCounter((counter) => counter + 1)}>+</button>
     </>
