@@ -1,15 +1,8 @@
 import React, { useState } from 'react'
+import './App.scss'
 
 const App = () => {
-  const [counter, setCounter] = useState<number>(0)
-
-  return (
-    <>
-      <h1>Contador</h1>
-      <p>{counter}</p>
-      <button onClick={() => setCounter((counter) => counter + 1)}>+</button>
-    </>
-  )
+  return <h1>Contador 1</h1>
 }
 
 export default App
